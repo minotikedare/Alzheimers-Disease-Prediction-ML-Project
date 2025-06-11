@@ -72,7 +72,7 @@ This machine learning project explores a dataset containing health information o
 ### 9. Confidential
 - `DoctorInCharge`: Confidential field marked as “XXXConfid” for all records
 
-### Variables Used
+## Variables Used
 
 #### Input Variable (Independent Variables)
 

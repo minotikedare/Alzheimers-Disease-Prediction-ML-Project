@@ -76,11 +76,11 @@ This machine learning project explores a dataset containing health information o
 
 #### Input Variable (Independent Variables)
 
-**Age**, **Gender**, **Ethnicity**, **BMI**, **Smoking**, **AlcoholConsumption**, **PhysicalActivity**, **DietQuality**, **FamilyHistoryAlzheimers**, **CardiovascularDisease**, **Diabetes**, **Depression**, **HeadInjury**, **Hypertension**, **MemoryComplaints**, **BehavioralProblems**, **Confusion**, **Disorientation**, **DifficultyCompletingTasks**, **Forgetfulness**
+Age, Gender, Ethnicity, BMI, Smoking, AlcoholConsumption, PhysicalActivity, DietQuality, FamilyHistoryAlzheimers, CardiovascularDisease, Diabetes, Depression, HeadInjury, Hypertension, MemoryComplaints, BehavioralProblems, Confusion, Disorientation, DifficultyCompletingTasks, Forgetfulness
 
 #### Output Variable (Target)
 
-**Diagnosis** — Indicates whether the patient has been diagnosed with Alzheimer’s Disease (0 = No, 1 = Yes)
+Diagnosis - Indicates whether the patient has been diagnosed with Alzheimer’s Disease (0 = No, 1 = Yes)
 
 ## Preprocessing Steps
 - Removed irrelevant features (e.g., PatientID, DoctorInCharge, MMSE)
@@ -99,7 +99,7 @@ This machine learning project explores a dataset containing health information o
 | LightGBM            | 70.47        |
 | XGBoost             | 66.98        |
 
-- All models handled class imbalance using techniques such as `class_weight` and `scale_pos_weight`.
+- All models handled class imbalance using techniques such as `class_weight`, `auto_class_weights` and `scale_pos_weight`.
 
 
 ## Source and Citation
